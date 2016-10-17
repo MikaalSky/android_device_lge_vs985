@@ -33,6 +33,8 @@ TARGET_SPECIFIC_HEADER_PATH += device/lge/vs985/include
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_vs985_defconfig
 TARGET_REQUIRES_BUMP := true
+TARGET_KERNEL_HAVE_EXFAT =: true
+TARGET_KERNEL_HAVE_NTFS := true
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
